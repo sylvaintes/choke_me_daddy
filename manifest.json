@@ -1,0 +1,16 @@
+{
+  "name": "Choke Me Daddy",
+  "description": "Choke Me Daddy is a time management tool that provides an external control to help you better manage time spent online, by slowly degrading Chrome's performance on some sites.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "author": "Sylvain Testud",
+  "permissions": [
+    "debugger"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="cmd_contents">
+      <span class="description">
+        Choke Me Daddy is a time management tool that provides an external control to help you better manage time spent online, by slowly degrading Chrome's performance on some sites.
+        <br /><br />
+        For each site, you can choose the intensity of the throttling.
+        <br /><br />
+      </span>
+      <div class="temp">
+        <button id="go_button">GO</button>
+      </div>
+      <div class="controls">
+        <div class="control_row">
+          <div class="site_name">Twitter</div>
+          <div class="control">
+            <input type="range" min="1" max="10" value="5" class="slider" id="intensity_twitter" />
+          </div>
+          <div class="intensity_display"></div>
+        </div>
+      </div>
+    </div>
+  <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  color: #ccc;
+  background-color: #333;
+  font-family: Verdana, sans-serif;
+}
+
+.cmd_contents {
+  border: 1px solid #888;
+  width: 380px;
+  padding: 20px;
+}
+
+.control_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.control_row .site_name {
+  flex: 1
+}
+
+.control_row .control {
+  flex: 3
+}
+
+.slider {
+  opacity: 0.8;
+  accent-color: orange;
+}
+
+.control_row .intensity_display {
+  flex: 1
+}
